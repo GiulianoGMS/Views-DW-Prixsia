@@ -1,0 +1,19 @@
+CREATE TABLE *** (
+       ID                   INTEGER NOT NULL,
+       CODIGO_SKU           INTEGER NOT NULL,
+       DESCRICAO            VARCHAR2(50),
+       EAN                  INTEGER(13),
+       LOJA                 INTEGER,
+       CANAL                INTEGER,
+       PRECO_SUGESTAO_VAR   NUMBER(10),
+       PRECO_SUGESTAO_ATA   NUMBER(10),
+       QUANTIDADE_ATACADO   NUMBER(3),
+       FATOR_ATACADO        NUMBER(10),
+       FATOR_PROPORCAO      NUMBER(10),
+       DATA_ALTERACAO       DATE,
+       CUSTO                NUMBER(10),
+       DIGITO               INTEGER,
+       PRECO_ATUAL_VAR      NUMBER(10),
+       PRECO_ATUAL_ATA      NUMBER(10) ) 
+       
+       /*Não Finalizado*/
